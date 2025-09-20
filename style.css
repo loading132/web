@@ -1,0 +1,59 @@
+body{
+    background-color: hsl(334, 100%, 55%);
+}
+
+h1{
+    color:brown;
+    font-family: consolas;
+    box-shadow: 10px 1px 5px black;
+}
+
+p{
+    color:white;
+    font-family: consolas;
+    border-style: double;
+    border-color: gold;
+    padding: 20px;
+    margin-left: 0px;
+    font-size: 30px;
+    box-shadow: 3px 2px 5px black;
+}
+
+input{
+    margin-right: auto;
+    padding: 10px;
+    font-family: consolas;
+    font-size: 20px;
+    background-color: yellow;
+    position: center;
+    border-style: solid;
+    border-color: white;
+    margin-top: 20px;
+    margin-left: 200px;
+    box-shadow: 4px 3px 2px black;
+}
+
+a{
+    color: wheat;
+    font-family: conolas;
+    font-size: 40px;
+    box-shadow: 1px 1px 2px black;
+}
+
+
+#box1{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    font-size: 225px;
+    text-align: center;
+animation: myslide;
+animation-iteration-count: 1;
+animation-duration: 5s;
+
+}
+
+@keyframes myslide {
+    from {margin-left: 100%;}
+    to {margin-left: 0%;}
+}
